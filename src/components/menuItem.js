@@ -20,6 +20,7 @@ const createMenuItem = (name, price, description='') => {
     };
 
     container.appendChild(itemPrice);
+    return container;
 }
 
 export default createMenuItem;
