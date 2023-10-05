@@ -1,4 +1,4 @@
-const menuItem = (name, price, description='') => {
+const createMenuItem = (name, price, description='') => {
     const container = document.createElement('div');
     container.classList.add('item-container');
 
@@ -22,4 +22,4 @@ const menuItem = (name, price, description='') => {
     container.appendChild(itemPrice);
 }
 
-export default menuItem;
+export default createMenuItem;
