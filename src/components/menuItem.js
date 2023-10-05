@@ -1,4 +1,4 @@
-const createMenuItem = (name, price, description='') => {
+const createItem = (name, price, description='') => {
     const container = document.createElement('div');
     container.classList.add('item-container');
 
@@ -23,4 +23,4 @@ const createMenuItem = (name, price, description='') => {
     return container;
 }
 
-export default createMenuItem;
+export default createItem;
