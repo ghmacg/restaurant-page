@@ -6,7 +6,7 @@ const header = () => {
     
     const title = document.createElement('div');
     title.classList.add('title');
-    title.textContent = 'BEEF';
+    title.textContent = 'THE ORIGINAL BEEF OF CHICAGOLAND';
 
     const navbar = document.createElement('div');
     navbar.classList.add('nav-bar');
