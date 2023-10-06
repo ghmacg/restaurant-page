@@ -12,7 +12,7 @@ const header = () => {
     navbar.classList.add('nav-bar');
     navbar.appendChild(createBtn('Home', 'home-button'));
     navbar.appendChild(createBtn('Menu', 'menu-button'));
-    navbar.appendChild(createBtn('Contact', 'contact-button'));
+    navbar.appendChild(createBtn('Contact Us', 'contact-button'));
 
     header.appendChild(title);
     header.appendChild(navbar);
