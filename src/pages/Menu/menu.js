@@ -1,5 +1,5 @@
 import createItem from "../../components/menuItem";
-import createTitle from "../../components/menuSectionTitle";
+import createDiv from "../../components/div";
 import data from "./data";
 
 const menu = () => {
@@ -8,7 +8,7 @@ const menu = () => {
 
     // DOM elements for 'Beverages and Shakes' section
     const firstSection = document.createElement('div');
-    firstSection.appendChild(createTitle('Beverages and Shakes'));
+    firstSection.appendChild(createDiv('Beverages and Shakes', 'section-title'));
 
     data['Beverages and Shakes'].forEach(item => {
         firstSection.appendChild(createItem(item.name, item.price, item.description));
@@ -16,7 +16,7 @@ const menu = () => {
 
     // DOM elements for 'Sandwiches and Burgers' section
     const secondSection = document.createElement('div');
-    secondSection.appendChild(createTitle('Sandwiches and Burgers'));
+    secondSection.appendChild(createDiv('Sandwiches and Burgers', 'section-title'));
 
     data['Sandwiches and Burgers'].forEach(item => {
         secondSection.appendChild(createItem(item.name, item.price, item.description));
@@ -24,7 +24,7 @@ const menu = () => {
 
     // DOM elements for 'Hot Dogs' section
     const thirdSection = document.createElement('div');
-    thirdSection.appendChild(createTitle('Hot Dogs'));
+    thirdSection.appendChild(createDiv('Hot Dogs', 'section-title'));
 
     data['Hot Dogs'].forEach(item => {
         thirdSection.appendChild(createItem(item.name, item.price, item.description));
@@ -32,7 +32,7 @@ const menu = () => {
 
     // DOM elements for 'Subs from our Deli' section
     const fourthSection = document.createElement('div');
-    fourthSection.appendChild(createTitle('Subs from our Deli'));
+    fourthSection.appendChild(createDiv('Subs from our Deli', 'section-title'));
 
     data['Subs from our Deli'].forEach(item => {
         fourthSection.appendChild(createItem(item.name, item.price, item.description));
@@ -40,7 +40,7 @@ const menu = () => {
 
     // DOM elements for 'Oddities' section
     const fifthSection = document.createElement('div');
-    fifthSection.appendChild(createTitle('Oddities'));
+    fifthSection.appendChild(createDiv('Oddities', 'section-title'));
 
     data['Oddities'].forEach(item => {
         fifthSection.appendChild(createItem(item.name, item.price, item.description));
@@ -48,7 +48,7 @@ const menu = () => {
 
     // DOM elements for 'Sides' section
     const sixthSection = document.createElement('div');
-    sixthSection.appendChild(createTitle('Sides')); 
+    sixthSection.appendChild(createDiv('Sides', 'section-title')); 
 
     data['Sides'].forEach(item => {
         sixthSection.appendChild(createItem(item.name, item.price, item.description));
@@ -56,7 +56,7 @@ const menu = () => {
 
     // DOM elements for 'Sweets' section
     const seventhSection = document.createElement('div');
-    seventhSection.appendChild(createTitle('Sweets'));
+    seventhSection.appendChild(createDiv('Sweets', 'section-title'));
 
     data['Sweets'].forEach(item => {
         seventhSection.appendChild(createItem(item.name, item.price, item.description));
