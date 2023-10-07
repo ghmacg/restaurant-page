@@ -2,6 +2,7 @@ import firstLoad from "./functions/firstLoad";
 import home from "./pages/Home/home";
 import menu from "./pages/Menu/menu";
 import contact from "./pages/Contact/contact";
+import "normalize.css";
 
 firstLoad();
 
