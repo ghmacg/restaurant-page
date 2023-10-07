@@ -2,6 +2,7 @@ import createDiv from '../../components/div';
 import createInput from '../../components/formInput';
 import createTextArea from '../../components/formTextArea';
 import createBtn from '../../components/button';
+import createMap from '../../components/map';
 
 const contact = () => {
     const contact = document.createElement('div');
@@ -9,6 +10,9 @@ const contact = () => {
     
     const contactContainer = document.createElement('div');
     contactContainer.id = 'contact-container';
+
+    const infoContainer = document.createElement('div');
+    infoContainer.id = 'info-container';
 
     const formContainer = document.createElement('div');
     formContainer.id = 'form-container';
@@ -24,11 +28,14 @@ const contact = () => {
     formContainer.appendChild(createDiv('Message Us', 'form-title'));
     formContainer.appendChild(form);
 
-    contactContainer.appendChild(createDiv('666 N Orleans St, Chicago, IL 60654', 'contact-info'));
-    contactContainer.appendChild(createDiv('Mon - Sat	10:00 AM - 3:30 PM', 'contact-info'));
-    contactContainer.appendChild(createDiv('(312) 337-8500', 'contact-info'));
-    contactContainer.appendChild(formContainer);
+    infoContainer.appendChild(createDiv('666 N Orleans St, Chicago, IL 60654', 'contact-info'));
+    infoContainer.appendChild(createDiv('Mon - Sat	10:00 AM - 3:30 PM', 'contact-info'));
+    infoContainer.appendChild(createDiv('(312) 337-8500', 'contact-info'));
+    infoContainer.appendChild(formContainer);
 
+    contactContainer.appendChild(infoContainer);
+    contactContainer.appendChild(createMap());
+    
     contact.appendChild(createDiv('Contact Us', 'contact-title'));
     contact.appendChild(contactContainer);
     return contact;
