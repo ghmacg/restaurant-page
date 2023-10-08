@@ -10,7 +10,11 @@ const header = () => {
 
     const navbar = document.createElement('div');
     navbar.classList.add('nav-bar');
-    navbar.appendChild(createBtn('Home', 'home-button'));
+
+    const homeBtn = createBtn('Home', 'home-button');
+    homeBtn.classList.add('active');
+    
+    navbar.appendChild(homeBtn);
     navbar.appendChild(createBtn('Menu', 'menu-button'));
     navbar.appendChild(createBtn('Contact Us', 'contact-button'));
 
