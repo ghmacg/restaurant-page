@@ -12,7 +12,7 @@ const data = {
         },
         {
             name: 'Can Soda',
-            description: 'Coke, Diet Coke, Dr Pepper, Mountain Dew, Sprite',
+            description: 'Coke, Diet Coke, Dr Pepper, Mountain Dew, Sprite.',
             price: '3.00'
         }
     ],
@@ -54,7 +54,7 @@ const data = {
         },
         {
             name: 'Steak Sandwich',
-            description: '1/2 lb. USDA Choice Boneless Ribeye Steak',
+            description: '1/2 lb. USDA Choice Boneless Ribeye Steak.',
             price: '13.00'
         },
     ],
