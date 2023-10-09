@@ -7,7 +7,7 @@ const createItem = (name, price, description='') => {
     itemName.classList.add('item-name');
 
     const itemPrice = document.createElement('div');
-    itemPrice.textContent = price;
+    itemPrice.textContent = `$${price}`;
     itemPrice.classList.add('item-price');
     
     container.appendChild(itemName);
