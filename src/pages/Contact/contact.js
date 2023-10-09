@@ -32,9 +32,9 @@ const contact = () => {
     const form = document.createElement('form');
     form.id = 'contact-form';
     
-    form.appendChild(createInput('text', 'FULL NAME', 'full-name'));
-    form.appendChild(createInput('email', 'EMAIL', 'email'));
-    form.appendChild(createTextArea('TYPE YOUR MESSAGE...', 'message'));
+    form.appendChild(createInput('text', 'Full Name', 'full-name'));
+    form.appendChild(createInput('email', 'Email', 'email'));
+    form.appendChild(createTextArea('Type your message...', 'message'));
     form.appendChild(createBtn('Send', 'form-button', 'submit'));
     
     /*            formContainer >
