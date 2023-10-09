@@ -14,8 +14,8 @@ const createInput = (type, text, id) => {
     label.setAttribute('for', id);
     label.textContent = text;
 
-    container.appendChild(input);
     container.appendChild(label);
+    container.appendChild(input);
     return container;
 }
 

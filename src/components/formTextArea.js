@@ -12,8 +12,8 @@ const createTextArea = (text, id) => {
     label.setAttribute('for', id);
     label.textContent = text;
     
-    container.appendChild(textarea);
     container.appendChild(label);
+    container.appendChild(textarea);
     return container;
 }
 
