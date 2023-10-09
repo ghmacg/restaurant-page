@@ -1,5 +1,5 @@
-import createBtn from "../../components/button";
-import createDiv from "../../components/div";
+import createBtn from "../components/button";
+import createDiv from "../components/div";
 
 const home = () => {
 	const home = document.createElement('div');

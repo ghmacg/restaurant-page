@@ -1,8 +1,8 @@
-import createDiv from '../../components/div';
-import createInput from '../../components/formInput';
-import createTextArea from '../../components/formTextArea';
-import createBtn from '../../components/button';
-import createMap from '../../components/map';
+import createDiv from '../components/div';
+import createInput from '../components/formInput';
+import createTextArea from '../components/formTextArea';
+import createBtn from '../components/button';
+import createMap from '../components/map';
 
 const contact = () => {
     /* Page structure

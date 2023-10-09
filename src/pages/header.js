@@ -1,4 +1,4 @@
-import createBtn from '../../components/button';
+import createBtn from '../components/button';
 
 const header = () => {
     const header = document.createElement('div');

@@ -1,6 +1,6 @@
-import createItem from "../../components/menuItem";
-import createDiv from "../../components/div";
-import data from "./data";
+import createItem from "../components/menuItem";
+import createDiv from "../components/div";
+import data from "../data/data";
 
 const menu = () => {
     const menu = document.createElement('div')
