@@ -1,5 +1,5 @@
-import header from "../pages/Header/header";
-import home from "../pages/Home/home";
+import header from "../pages/header";
+import home from "../pages/home";
 
 const firstLoad = () => {
     const container = document.createElement('div');
