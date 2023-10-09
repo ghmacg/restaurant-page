@@ -1,14 +1,10 @@
 import firstLoad from "./functions/firstLoad";
 import changeActiveBtn from "./functions/changeActiveBtn";
-import home from "./pages/Home/home";
-import menu from "./pages/Menu/menu";
-import contact from "./pages/Contact/contact";
+import home from "./pages/home";
+import menu from "./pages/menu";
+import contact from "./pages/contact";
 import "normalize.css";
 import "./style.css";
-import "./pages/Header/style.css";
-import "./pages/Home/style.css";
-import "./pages/Menu/style.css";
-import "./pages/Contact/style.css";
 
 firstLoad();
 
@@ -16,23 +12,35 @@ const homeBtn = document.querySelector('.home-button');
 const menuBtn = document.querySelector('.menu-button');
 const contactBtn = document.querySelector('.contact-button');
 const main = document.getElementById('main');
+let homeMenuBtn = document.querySelector('.view-menu-button');
 
 let activeBtn = homeBtn;
 
-homeBtn.addEventListener('click', () => {
+const homeHandler = () => {
     activeBtn = changeActiveBtn(activeBtn, homeBtn);
     main.innerText = '';
     main.appendChild(home());
-});
 
-menuBtn.addEventListener('click', () => {
+    homeMenuBtn = document.querySelector('.view-menu-button');
+    homeMenuBtn.addEventListener('click', menuHandler);
+}
+
+const menuHandler = () => {
     activeBtn = changeActiveBtn(activeBtn, menuBtn);
     main.innerText = '';
     main.appendChild(menu());
-});
+}
 
-contactBtn.addEventListener('click', () => {
+const contactHandler = () => {
     activeBtn = changeActiveBtn(activeBtn, contactBtn);
     main.innerText = '';
     main.appendChild(contact());
-});
+}
+
+homeBtn.addEventListener('click', homeHandler);
+
+homeMenuBtn.addEventListener('click', menuHandler);
+
+menuBtn.addEventListener('click', menuHandler);
+
+contactBtn.addEventListener('click', contactHandler);
