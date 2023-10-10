@@ -3,8 +3,6 @@
 
 `I used the menu, location, and contact info from the restaurant that the show took inspiration from`
 
-<div align="center"><img src="./website-capture.png" alt="screenshot of website" width="900" /></div>
-
 **Note:** This Website works best with High Resolution Screens (1080p and up).
 
 This project was completed for The Odin Project Javascript Restaurant Page Assignment. The aim of the project was to make a functional multi page Restaurant website using WebPack to bundle files.
@@ -49,4 +47,5 @@ Deployed on [GitHub Pages](https://pages.github.com/)
 ## Acknowledgement
 
 Design inspired by [michalosman](https://michalosman.github.io/restaurant-page/) and [SultanBadri](https://sultanbadri.github.io/restaurant-page/)
+
 README file inspired by [pret3nti0u5](https://github.com/pret3nti0u5/Restaurant-Page/tree/master)
