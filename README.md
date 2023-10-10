@@ -3,6 +3,8 @@
 
 `I used the menu, location, and contact info from the restaurant that the show took inspiration from`
 
+<div align="center"><img src="https://i.postimg.cc/DwwjPLDc/website-capture.png" alt="screenshot of website" width="900" /></div>
+
 **Note:** This Website works best with High Resolution Screens (1080p and up).
 
 This project was completed for The Odin Project Javascript Restaurant Page Assignment. The aim of the project was to make a functional multi page Restaurant website using WebPack to bundle files.
