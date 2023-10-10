@@ -53,6 +53,7 @@ In order to deploy this project on GitHub Pages, you will need to:
 `git branch gh-deploy`
 
 2. Once you have created the new branch, you have to add & commit the distribution files:
+
 `git add dist/`
 `git commit -m "My commit message"` 
 
@@ -61,8 +62,8 @@ In order to deploy this project on GitHub Pages, you will need to:
 
 4. To finish make sure the right path is selected in the Setting of your GitHub repo.
 
-**Note:** To prevent having to copy and paste the same lengthy git command each time, I created a npm script:  
-`"scripts": { "gh-deploy": "git subtree push --prefix dist origin gh-pages" }`
+**Note:** To prevent having to copy and paste the same lengthy git command each time, I created a npm script, the real command is:  
+`git subtree push --prefix dist origin gh-pages`
 
 ## Acknowledgement
 
