@@ -14,6 +14,8 @@ This project was completed for The Odin Project Javascript Restaurant Page Assig
 - Vanilla JS
 - HTML5
 - CSS3
+- Webpack
+- Normalize.css
 
 ## Live Demo
 
