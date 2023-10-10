@@ -53,7 +53,8 @@ In order to deploy this project on GitHub Pages, you will need to:
 `git branch gh-deploy`
 
 2. Once you have created the new branch, you have to add & commit the distribution files:
-`git add dist/` & `git commit -m "My commit message"` 
+`git add dist/`
+`git commit -m "My commit message"` 
 
 3. Then you need to push it:  
 `npm run gh-deploy`
