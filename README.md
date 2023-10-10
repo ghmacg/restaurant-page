@@ -47,6 +47,22 @@ In order to setup and work on this project on your own, you will need to:
 
 Deployed on [GitHub Pages](https://pages.github.com/)  
 
+In order to deploy this project on GitHub Pages, you will need to:
+
+1. Create new branch:  
+`git branch gh-deploy`
+
+2. Once you have created the new branch, you have to add & commit the distribution files:
+`git add dist/` & `git commit -m "My commit message"` 
+
+3. Then you need to push it:  
+`npm run gh-deploy`
+
+4. To finish make sure the right path is selected in the Setting of your GitHub repo.
+
+**Note:** To prevent having to copy and paste the same lengthy git command each time, I created a npm script:  
+`"scripts": { "gh-deploy": "git subtree push --prefix dist origin gh-pages" }`
+
 ## Acknowledgement
 
 Design inspired by [michalosman](https://michalosman.github.io/restaurant-page/) and [SultanBadri](https://sultanbadri.github.io/restaurant-page/)
